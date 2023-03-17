@@ -14,8 +14,8 @@
 }
 
 .cell{
-    width: calc(100%/8);
-    height: calc(100%/8);
+    width: calc(10%);
+    height: calc(10%);
     /* border: 1px solid; */
     display: flex;
     justify-content: center;
