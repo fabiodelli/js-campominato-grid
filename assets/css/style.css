@@ -2,12 +2,11 @@
  margin:0;
  padding: 0 !important;;
  box-sizing:border-box;
- border: 1px solid ;
+ /* border: 1px solid ; */
 }
 
 .container{
     width: 800px;
-    aspect-ratio: 1;
     margin: auto;
     display: flex;
     flex-wrap:wrap ;
@@ -15,8 +14,8 @@
 
 .cell{
     width: calc(10%);
-    height: calc(10%);
-    /* border: 1px solid; */
+    aspect-ratio: 1;
+    border: 1px solid;
     display: flex;
     justify-content: center;
     align-items: center;
